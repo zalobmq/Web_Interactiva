@@ -1,0 +1,45 @@
+body{
+    
+     text-align: center;
+    color: whitesmoke;
+    background-color: #252525; /* Color de fondo */
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin: 30px;
+}
+.container{
+    background-color: rgb(8, 189, 189); /* Color de fondo */
+     margin-left: 25%;
+     margin-right: 25%;
+    border-radius: 10px;
+    width: 50%; /* Tamaño del contenedor */
+    box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 0.158);
+}
+
+.container path{
+fill: burlywood; /* Color  del mapa */
+stroke: black; /* Color de las lineas del mapa */
+stroke-width: 2px; /* Grosor de la linea */
+}
+
+.container :hover{
+    fill: rgb(218, 104, 199); /* Este color se mostrarar al pasar por encima de una de la provincias */
+    cursor: pointer
+}
+.x{
+    fill: rgb(218, 104, 199) !important;  /* Este color se mostrarar al pasar por encima de una de la provincias */
+    cursor: pointer
+}
+button{
+    font-size: 30px;
+    border: 0px;
+    background-color: #252525;
+}
+button:hover{
+    font-size: 30px;
+    background-color: rgb(223, 97, 97);
+    border: 0px;
+    border-radius: 20%;
+    cursor: pointer
+}
